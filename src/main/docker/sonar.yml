@@ -1,0 +1,8 @@
+version: '2'
+services:
+    quanda-sonar:
+        container_name: quanda-sonar
+        image: sonarqube:5.3
+        ports:
+            - 9000:9000
+            - 9092:9092
